@@ -24,6 +24,7 @@
 #include <string.h>
 #include <unistd.h>
 
+#include "src/draw.h"
 #include "src/dunst.h"
 #include "src/markup.h"
 #include "src/notification.h"
