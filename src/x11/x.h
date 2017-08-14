@@ -46,9 +46,9 @@ typedef struct _color_t {
 extern xctx_t xctx;
 
 /* window */
-void x_win_draw(void);
 void x_win_hide(void);
 void x_win_show(void);
+void x_win_move(int width, int height);
 
 /* shortcut */
 void x_shortcut_init(keyboard_shortcut * shortcut);

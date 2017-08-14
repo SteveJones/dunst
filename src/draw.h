@@ -18,5 +18,6 @@ struct geometry {
 };
 
 void draw_setup();
+void draw();
 #endif
 /* vim: set tabstop=8 shiftwidth=8 expandtab textwidth=0: */

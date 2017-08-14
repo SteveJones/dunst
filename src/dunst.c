@@ -237,7 +237,7 @@ gboolean run(void *data)
         }
 
         if (xctx.visible) {
-            x_win_draw();
+            draw();
         }
 
         if (xctx.visible) {
